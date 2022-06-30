@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EDBD13</color>
+    <color name="colorPrimaryDark">#EDBD13</color>
+    <color name="colorAccent">@android:color/white</color>
+
+    <color name="errorColor">#B71C1C</color>
+    <color name="infoColor">#0F4C81</color>
+    <color name="successColor">#4CAF50</color>
+
+    <color name="colorIconDark">@android:color/black</color>
+    <color name="colorIconLight">@android:color/white</color>
+    <color name="colorTextDark">@android:color/black</color>
+    <color name="colorTextLight">@android:color/white</color>
+
+    <color name="colorBackground">#101010</color>
+    <color name="colorViews">#222222</color>
+    <color name="colorInactive">#89A3B2</color>
+</resources>
