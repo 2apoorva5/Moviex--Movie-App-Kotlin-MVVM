@@ -52,11 +52,13 @@ class FavoritesActivity : AppCompatActivity() {
                 R.id.menu_home -> {
                     startActivity(Intent(this@FavoritesActivity, MainActivity::class.java))
                     overridePendingTransition(0, 0)
+                    finish()
                 }
                 R.id.menu_favorite -> {}
                 R.id.menu_watchlist -> {
                     startActivity(Intent(this@FavoritesActivity, WatchlistActivity::class.java))
                     overridePendingTransition(0, 0)
+                    finish()
                 }
             }
             false

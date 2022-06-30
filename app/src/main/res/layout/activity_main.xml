@@ -133,7 +133,7 @@
             android:singleLine="true"
             android:textAlignment="textStart"
             android:textAllCaps="false"
-            android:textColor="@color/colorTextDark"
+            android:textColor="@color/colorTextLight"
             android:textColorHint="@color/colorInactive"
             android:textSize="14sp"
             android:textStyle="normal"

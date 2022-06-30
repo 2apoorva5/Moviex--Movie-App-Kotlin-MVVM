@@ -99,10 +99,12 @@ class MainActivity : AppCompatActivity(), OnMovieClickListener {
                 R.id.menu_favorite -> {
                     startActivity(Intent(this@MainActivity, FavoritesActivity::class.java))
                     overridePendingTransition(0, 0)
+                    finish()
                 }
                 R.id.menu_watchlist -> {
                     startActivity(Intent(this@MainActivity, WatchlistActivity::class.java))
                     overridePendingTransition(0, 0)
+                    finish()
                 }
             }
             false
